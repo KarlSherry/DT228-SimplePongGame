@@ -5,27 +5,26 @@
 
 <body>
 
-<div id="container", bgcolor="blue">
-  <div id="widget-login">
+<div id="widget-login">
 
-      {{loginButtons}}
+    {{loginButtons}}
   
-   </div>
+ </div>
 
-   <div>
-     {{> hello}}
+ <div>
+   {{> hello}}
 
-     <canvas id="canvas" width="800" height="800"></canvas>  
-     <br /><br />
-     {{>scoreboard}}
+   <canvas id="canvas" width="800" height="800"></canvas>  
+   <br /><br />
+   {{>scoreboard}}
 
   
-   </div>
+ </div>
 
  
 
 </body>
-</div>
+
 
 
 <template name="hello">

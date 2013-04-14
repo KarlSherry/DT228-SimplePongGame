@@ -3,4 +3,7 @@ Players = new Meteor.Collection("players");
 	Meteor.startup(function() {
 		Players.insert({name:"Test"});
 	});
+
+//Meteor.publish("players")
+
 }

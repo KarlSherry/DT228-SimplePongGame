@@ -1,4 +1,5 @@
 if (Meteor.isClient) {
+  Meteor.subscribe("players");
   Template.hello.greeting = function () {
     return "Welcome to SimplePongGame.";
   };
@@ -11,6 +12,8 @@ if (Meteor.isClient) {
     }
   });
 }
+
+
 
 if (Meteor.isServer) {
   Meteor.startup(function () {

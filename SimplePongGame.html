@@ -9,21 +9,19 @@
   <div id="widget-login">
 
       {{loginButtons}}
+  </div>
+  	 <div id = "greeting">
+    		 {{> hello}}
+	 </div>
+		 <div id = "main">
+    			 <canvas id="canvas" width="600" height="600"></canvas>  
+    			 <br /><br />
+		 </div>
+			 <div id="scores">
+    				 {{>scoreboard}}
+			 </div>
   
    </div>
-
-   <div>
-     {{> hello}}
-
-     <canvas id="canvas" width="600" height="600"></canvas>  
-     <br /><br />
-     {{>scoreboard}}
-
-  
-   </div>
-
- 
-</div>
 </body>
 
 

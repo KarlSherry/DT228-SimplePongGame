@@ -39,12 +39,9 @@
          <td>Player</td>
          <td>Score</td>
     </tr>
-    <tr>
          {{#each players}}
 		{{>player}}
 	 {{/each}}
-    </tr>
-
   </table>
 </template>
 

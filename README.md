@@ -3,6 +3,8 @@ DT228-SimplePongGame
 Alan J Bissell -http://github.com/bisslad
 Student Number: C09786601 
 
+Karl Sherry - http://github.com/KarlSherry
+Student Number: C09700081
 
 Year 4 Rich Web Development Assignment
 
